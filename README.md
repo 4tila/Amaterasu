@@ -1,4 +1,4 @@
-# Amaterasu: Next Token Prediction Through Codewords For Parameter Reduction
+# Amaterasu: Next Token Prediction Through Semantic Codewords
 
 This is a next-token prediction task over a 56k vocabulary using a 2.1M-parameter language model that replaces standard vocabulary prediction with 48-bit token encoding.
 

@@ -768,13 +768,7 @@ which was how it calculated the score (saved on `scores` variable) as well as th
 
 ## 5. Kaggle Links
 
-The training of the model due to hardware limitations had to be done remotely. The iron python notebooks were downloaded and uploaded to github as well as their html versions. The links to the scripts that ran on kaggle are the following
-
-- *Kaggle Link 1*
-- *Kaggle Link 2*
-- *Kaggle Link 3*
-
-**I WILL CHANGE THIS SECTION ONCE I UPLOAD TO KAGGLE**
+The training of the model due to hardware limitations had to be done remotely. The iron python notebooks were downloaded and can be found at the main directory of this project.
 
 
 

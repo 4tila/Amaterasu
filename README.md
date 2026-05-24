@@ -34,9 +34,6 @@ It was evaluated the model under two configurations: deterministic and stochasti
 | Zero Substitution |         16.60% |          23.90% |
 | Shuffle Ablation  |         15.96% |          23.32% |
 
-### Observations
-
-A consistent degradation in performance is observed when the context matrices are perturbed or removed. In particular, shuffle ablation leads to a near-complete collapse of predictive performance, suggesting that the ordering and structure of the context representation is critical for correct decoding.
 
 ### Computational efficiency
 

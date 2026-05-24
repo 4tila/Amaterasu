@@ -765,7 +765,11 @@ which was how it calculated the score (saved on `scores` variable) as well as th
 
 ## 5. Kaggle Links
 
-The training of the model due to hardware limitations had to be done remotely. The iron python notebooks were downloaded and can be found at the main directory of this project.
+Once published on Kaggle, this section of the README will be edited to add the links of the Kaggle notebooks. The download Kaggle notebooks are the following:
+
+ - [Deterministic Model Notebook](https://github.com/4tila/Amaterasu/blob/main/deterministic-model-notebook.ipynb)
+ - [Stochastic Model Notebook](https://github.com/4tila/Amaterasu/blob/main/stochastic-model-notebook.ipynb)
+ - [Sentence Generation and Model Performance](https://github.com/4tila/Amaterasu/blob/main/generate-examples.ipynb)
 
 
 

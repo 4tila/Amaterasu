@@ -771,6 +771,9 @@ The training of the model due to hardware limitations had to be done remotely. T
 
 ## 6. Preprint link
 
+The preprint draft is available [Here](
+https://github.com/4tila/Amaterasu/blob/main/preprint.pdf)
+
 It was also made a preprint available here *(Link for The Preprint Once Published)* where you can find a more in depth explanation of how the model was developed. 
 
 ## 7. Support / Donation

@@ -684,7 +684,7 @@ for N in range(7, 1, -1):
 
     x = tf.keras.layers.Activation('relu')(merged)
 ```
-To not map to a set of vectors with dimension lower than the output dimension, which may compromise the model, it was added a dense layer of 24 units so that the two feature vectors when concatenated have a total of $2times 24=48$ dimensions.
+To not map to a set of vectors with dimension lower than the output dimension, which may compromise the model, it was added a dense layer of 24 units so that the two feature vectors when concatenated have a total of $2\times 24=48$ dimensions.
 
 ```py
 x = tf.keras.layers.Reshape((2,40))(x)

@@ -1,20 +1,15 @@
 # Amaterasu: Next Token Prediction Through Semantic Codewords
-
 This is a next-token prediction task over a 56k vocabulary using a 2.1M-parameter language model that replaces standard vocabulary prediction with 48-bit token encoding.
-
 ## 1. Overview
-
 The goal of this project, named **Amaterasu**, is to reduce the number of parameters required for language modeling so that useful models can run locally on low-cost hardware without the need for GPUs.
-
-The proposed model has **2.1M parameters** (approximately 50× fewer than GPT-2 small) and achieves **22.08% top-1** and **29.92% top-10 accuracy** on in-domain next-token prediction.
+The proposed model has **2.1M parameters** (approximately 50× fewer than GPT-2 small) and achieves **22.08% top-1** and **29.92% top-10 accuracy** on a held-out test set of unseen samples from the same corpus.
 
 Instead of predicting a probability distribution over the entire vocabulary, the model represents each token using a **48-bit encoding** in which individual bits carry semantic information. The network predicts each bit independently, reducing the output layer from hundreds of thousands of neurons to only 48.
-
 To incorporate context, the model uses a **dynamical system** inspired by reservoir computing. This system encodes past tokens into **context matrices**, whose evolution captures information about the sequence. These matrices are then projected into a lower-dimensional space and used as input for prediction.
 
 ## 2. Results
 
-It was evaluated the model under two configurations: deterministic and stochastic variants, using in-domain prediction accuracy with and without context ablations.
+The model was evaluated under two configurations — deterministic and stochastic — using held-out prediction accuracy with and without context ablations.
 
 ### Deterministic model
 
@@ -609,7 +604,7 @@ During the first iteration, a separate dataset for test/validation is also creat
     np.save(f'{path}{prefix}_tf_output_{book_i//5:04d}', tf_output)
 ```
 
- As it was said at the beginning as well as on the preprint, it was evaluated merely in-domain prediction so it was not used a separate set of books to generate test dataset as analyzing capabilities of generalization by the model seem too ambitious for a first work on this line of thought.
+ As it was said at the beginning as well as on the preprint, it was evaluated merely  prediction so it was not used a separate set of books to generate test dataset as analyzing capabilities of generalization by the model seem too ambitious for a first work on this line of thought.
 
 ### 4.5 Generation Of The Vocabulary
 

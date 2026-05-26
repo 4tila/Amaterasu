@@ -760,11 +760,11 @@ which was how it calculated the score (saved on `scores` variable) as well as th
 
 ## 5. Kaggle Links
 
-Once published on Kaggle, this section of the README will be edited to add the links of the Kaggle notebooks. The download Kaggle notebooks are the following:
+The Kaggle notebooks are the following:
 
- - [Deterministic Model Notebook](https://github.com/4tila/Amaterasu/blob/main/deterministic-model-notebook.ipynb)
- - [Stochastic Model Notebook](https://github.com/4tila/Amaterasu/blob/main/stochastic-model-notebook.ipynb)
- - [Sentence Generation and Model Performance](https://github.com/4tila/Amaterasu/blob/main/generate-examples.ipynb)
+ - [Deterministic Model Notebook](https://www.kaggle.com/code/jdoesagazl/deterministic-model-notebook)
+ - [Stochastic Model Notebook](https://www.kaggle.com/code/jdoesagazl/stochastic-model-notebook)
+ - [Sentence Generation and Model Performance](https://www.kaggle.com/code/jdoesagazl/generate-examples)
 
 
 

@@ -4,7 +4,7 @@ This is a next-token prediction task over a 56k vocabulary using a 2.1M-paramete
 The goal of this project, named **Amaterasu**, is to reduce the number of parameters required for language modeling so that useful models can run locally on low-cost hardware without the need for GPUs.
 The proposed model has **2.1M parameters** (approximately 50× fewer than GPT-2 small) and achieves **22.08% top-1** and **29.92% top-10 accuracy** on a held-out test set of unseen samples from the same corpus.
 
-Instead of predicting a probability distribution over the entire vocabulary, the model represents each token using a **48-bit encoding** in which individual bits carry semantic information. The network predicts each bit independently, reducing the output layer from hundreds of thousands of neurons to only 48.
+Instead of predicting a probability distribution over the entire vocabulary, the model represents each token using a **48-bit encoding** in which individual bits carry semantic information. The network predicts each bit independently, reducing the output layer from tens of thousands of neurons to only 48.
 To incorporate context, the model uses a **dynamical system** inspired by reservoir computing. This system encodes past tokens into **context matrices**, whose evolution captures information about the sequence. These matrices are then projected into a lower-dimensional space and used as input for prediction.
 
 ## 2. Results
